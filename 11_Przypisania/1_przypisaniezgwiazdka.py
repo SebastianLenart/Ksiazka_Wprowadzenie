@@ -16,3 +16,10 @@ print(a, b, c)
 # *a = "Seba" # blad, ponizej poprawna wersja
 *a, = "Seba"
 print()
+
+
+
+
+
+text = '%s: %-.4f, %05d' % ('Wynik', 3.14159, 42)
+print(text)
